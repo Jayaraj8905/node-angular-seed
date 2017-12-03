@@ -1,0 +1,13 @@
+:host {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.page {
+  height: 100%;
+}
+
+h1 {
+  margin: 16px 0px;
+}

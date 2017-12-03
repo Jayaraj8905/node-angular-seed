@@ -1,0 +1,22 @@
+<div class="page" fxLayoutAlign="center center">
+  <div>
+    <h1>
+      Welcome! Please Enter your Details
+    </h1>
+    <div>
+      <form fxLayout="column">
+        <mat-form-field>
+          <input matInput placeholder="Enter Name">
+        </mat-form-field>
+
+        <mat-form-field>
+          <textarea matInput placeholder="Leave a comment"></textarea>
+        </mat-form-field>
+
+        <div>
+          <button mat-raised-button color="primary" (click)="ping()">Ping</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
